@@ -19,7 +19,7 @@ const config: Config = {
       },
       colors: {
         whiteivory: {
-          500: "#F5F5F5"
+          500: "#FDFDFD"
         },
         blackstone: {
           500: "#242424"
