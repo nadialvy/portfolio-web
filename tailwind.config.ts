@@ -16,6 +16,17 @@ const config: Config = {
       fontFamily: {
         montserrat: ['var(--font-montserrat)'],
         playfairdisplay: ['var(--font-playfairdisplay)'],
+      },
+      colors: {
+        whiteivory: {
+          500: "#F5F5F5"
+        },
+        blackstone: {
+          500: "#242424"
+        },
+        rosepink: {
+          300: "#E9D3E7"
+        }
       }
     },
   },
