@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Montserrat, PlayfairDisplay } from "@/lib/font";
 import "./globals.css";
+import clsxm from "@/lib/clsxm";
 
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={clsxm(Montserrat.variable, PlayfairDisplay.variable)}>
+        {children}
+      </body>
     </html>
   );
 }
