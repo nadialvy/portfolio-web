@@ -22,6 +22,7 @@ const config: Config = {
           500: "#FDFDFD"
         },
         blackstone: {
+          200: "#D9D9D9",
           500: "#242424"
         },
         rosepink: {

@@ -9,11 +9,16 @@ type SectionSeparatorProps = {
   secondTitle?: String;
 };
 
-export default function SectionSeparator({numberFirst, number, firstTitle, secondTitle}: SectionSeparatorProps) {
+export default function SectionSeparator({
+  numberFirst,
+  number,
+  firstTitle,
+  secondTitle,
+}: SectionSeparatorProps) {
   return (
     <div
       className={clsxm(
-        "px-6 flex flex-col justify-start items-start w-full max-w-[1015px] h-[200px]",
+        "px-6 flex flex-col justify-start items-start w-full max-w-[1015px] lg:h-[200px]",
         "lg:items-end lg:px-0 lg:justify-between",
         numberFirst ? "lg:flex-row" : "lg:flex-row-reverse"
       )}

@@ -1,5 +1,8 @@
+import HorizontalScrollCard from "@/components/HorizontalScrollCard";
+import LineSeparator from "@/components/LineSeparator";
 import NextImage from "@/components/NextImage";
 import SectionSeparator from "@/components/SectionSeparator";
+import Slider from "@/components/Slider";
 import Typography from "@/components/Typography";
 import clsxm from "@/lib/clsxm";
 
@@ -7,7 +10,9 @@ export default function Home() {
   return (
     <main className="bg-whiteivory-500 min-h-screen w-full flex flex-col items-center justify-center">
       <>
-        <div className="border-[0.3px] w-full border-blackstone-500 mt-4 z-20"></div>
+        <div className="w-full mt-12">
+          <LineSeparator className="border-[0.5px] border-blackstone-200" />
+        </div>
         <div className="flex flex-col px-6 lg:px-0 lg:flex-row lg:max-w-[1015px] items-center justify-center">
           <div className="lg:w-2/3 relative">
             <div>
@@ -48,11 +53,12 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="border-[0.3px] w-full border-blackstone-500 mt-6 z-20 relative"></div>
-
+            <div className="w-full mt-4">
+              <LineSeparator className="border-[0.5px] border-blackstone-200" />
+            </div>
             <Typography
               font="montserrat"
-              className="my-8 z-40 lg:pr-16 relative lg:mt-7"
+              className="my-8 z-40 lg:pr-16 relative lg:mt-12"
               variant="bt"
             >
               Hello 👋🏻 <br className="lg:hidden" /> I&apos;m Nadia Lovely, a
@@ -70,7 +76,7 @@ export default function Home() {
               width={1034}
               height={428}
               alt="blur pink element"
-              className="hidden lg:block absolute w-[500px] right-24 -bottom-[11%] z-10 "
+              className="hidden lg:block absolute w-[500px] right-24 -bottom-[9.7%] z-10 "
             />
           </div>
           <div className="relative lg:w-1/3 lg:pl-6 ">
@@ -105,7 +111,9 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="border-[0.3px] w-full border-blackstone-500 z-20"></div>
+        <div className="w-full">
+          <LineSeparator className="border-[0.5px] border-blackstone-200" />
+        </div>
       </>
       <SectionSeparator
         numberFirst={false}
@@ -113,6 +121,247 @@ export default function Home() {
         firstTitle="RECENT"
         secondTitle="PROJECTS"
       />
+      <>
+        <div className="w-full mt-2">
+          <LineSeparator className="border-[0.5px] border-blackstone-200" />
+        </div>
+        <div className="px-6 lg:px-0 w-full py-12 flex space-x-12 overflow-x-auto container-snap lg:hidden">
+          <div className="border-blackstone-500 border-[0.3px] flex flex-col items-center justify-center w-3/4">
+            <Typography
+              className="font-bold py-2"
+              as="p"
+              variant="p"
+              font="montserrat"
+            >
+              PROJECT #1
+            </Typography>
+            <LineSeparator className="border-[0.5px] border-blackstone-200" />
+            <div className="flex flex-col items-center justify-center py-4">
+              <Typography
+                as="p"
+                variant="p"
+                className="font-bold"
+                font="montserrat"
+              >
+                INILHOITS! 2024
+              </Typography>
+              <Typography as="p" variant="p">
+                Staff Frontend
+              </Typography>
+            </div>
+            <LineSeparator className="border-[0.5px] border-blackstone-200" />
+            <div className="flex flex-col items-center justify-center p-4 text-balance">
+              <Typography className="text-center text-balance">
+                Lorem ipsum dolor sit a Lorem ipsum Lorem dolor sit a ipsum
+                Lorem ipsum Lorem ipsum Lorem ipsum dolor sit a Lorem ipsum
+              </Typography>
+              <div className="flex items-center space-x-2 justify-center mt-2 group">
+                <Typography className="underline group-hover:cursor-pointer">
+                  See the web
+                </Typography>
+                <NextImage
+                  src="/icon/arrow.png"
+                  width={24}
+                  height={22}
+                  alt="arrow"
+                  className="group-hover:cursor-pointer group-hover:rotate-45 duration-300 transition-all w-4"
+                />
+              </div>
+            </div>
+            <LineSeparator className="border-[0.5px] border-blackstone-200" />
+
+            <HorizontalScrollCard />
+          </div>
+          <div className=" border-blackstone-500 border-[0.3px] flex flex-col items-center justify-center w-3/4">
+            <Typography
+              className="font-bold py-2"
+              as="p"
+              variant="p"
+              font="montserrat"
+            >
+              PROJECT #1
+            </Typography>
+            <LineSeparator className="border-[0.5px] border-blackstone-200" />
+            <div className="flex flex-col items-center justify-center py-4">
+              <Typography
+                as="p"
+                variant="p"
+                className="font-bold"
+                font="montserrat"
+              >
+                INILHOITS! 2024
+              </Typography>
+              <Typography as="p" variant="p">
+                Staff Frontend
+              </Typography>
+            </div>
+            <LineSeparator className="border-[0.5px] border-blackstone-200" />
+            <div className="flex flex-col items-center justify-center p-4 text-balance">
+              <Typography className="text-center text-balance">
+                AAA Lorem ipsum dolor sit a Lorem ipsum Lorem dolor sit a ipsum
+                Lorem ipsum Lorem ipsum Lorem ipsum dolor sit a Lorem ipsum
+              </Typography>
+              <div className="flex items-center space-x-2 justify-center mt-2 group">
+                <Typography className="underline group-hover:cursor-pointer">
+                  See the web
+                </Typography>
+                <NextImage
+                  src="/icon/arrow.png"
+                  width={24}
+                  height={22}
+                  alt="arrow"
+                  className="group-hover:cursor-pointer group-hover:rotate-45 duration-300 transition-all w-4"
+                />
+              </div>
+            </div>
+            <LineSeparator className="border-[0.5px] border-blackstone-200" />
+
+            <HorizontalScrollCard />
+          </div>
+          <div className=" border-blackstone-500 border-[0.3px] flex flex-col items-center justify-center w-3/4">
+            <Typography
+              className="font-bold py-2"
+              as="p"
+              variant="p"
+              font="montserrat"
+            >
+              PROJECT #1
+            </Typography>
+            <LineSeparator className="border-[0.5px] border-blackstone-200" />
+            <div className="flex flex-col items-center justify-center py-4">
+              <Typography
+                as="p"
+                variant="p"
+                className="font-bold"
+                font="montserrat"
+              >
+                INILHOITS! 2024
+              </Typography>
+              <Typography as="p" variant="p">
+                Staff Frontend
+              </Typography>
+            </div>
+            <LineSeparator className="border-[0.5px] border-blackstone-200" />
+            <div className="flex flex-col items-center justify-center p-4 text-balance">
+              <Typography className="text-center text-balance">
+                Lorem ipsum dolor sit a Lorem ipsum Lorem dolor sit a ipsum
+                Lorem ipsum Lorem ipsum Lorem ipsum dolor sit a Lorem ipsum
+              </Typography>
+              <div className="flex items-center space-x-2 justify-center mt-2 group">
+                <Typography className="underline group-hover:cursor-pointer">
+                  See the web
+                </Typography>
+                <NextImage
+                  src="/icon/arrow.png"
+                  width={24}
+                  height={22}
+                  alt="arrow"
+                  className="group-hover:cursor-pointer group-hover:rotate-45 duration-300 transition-all w-4"
+                />
+              </div>
+            </div>
+            <LineSeparator className="border-[0.5px] border-blackstone-200" />
+
+            <HorizontalScrollCard />
+          </div>
+          <div className=" border-blackstone-500 border-[0.3px] flex flex-col items-center justify-center w-3/4">
+            <Typography
+              className="font-bold py-2"
+              as="p"
+              variant="p"
+              font="montserrat"
+            >
+              PROJECT #1
+            </Typography>
+            <LineSeparator className="border-[0.5px] border-blackstone-200" />
+            <div className="flex flex-col items-center justify-center py-4">
+              <Typography
+                as="p"
+                variant="p"
+                className="font-bold"
+                font="montserrat"
+              >
+                INILHOITS! 2024
+              </Typography>
+              <Typography as="p" variant="p">
+                Staff Frontend
+              </Typography>
+            </div>
+            <LineSeparator className="border-[0.5px] border-blackstone-200" />
+            <div className="flex flex-col items-center justify-center p-4 text-balance">
+              <Typography className="text-center text-balance">
+                Lorem ipsum dolor sit a Lorem ipsum Lorem dolor sit a ipsum
+                Lorem ipsum Lorem ipsum Lorem ipsum dolor sit a Lorem ipsum
+              </Typography>
+              <div className="flex items-center space-x-2 justify-center mt-2 group">
+                <Typography className="underline group-hover:cursor-pointer">
+                  See the web
+                </Typography>
+                <NextImage
+                  src="/icon/arrow.png"
+                  width={24}
+                  height={22}
+                  alt="arrow"
+                  className="group-hover:cursor-pointer group-hover:rotate-45 duration-300 transition-all w-4"
+                />
+              </div>
+            </div>
+            <LineSeparator className="border-[0.5px] border-blackstone-200" />
+
+            <HorizontalScrollCard />
+          </div>
+          <div className=" border-blackstone-500 border-[0.3px] flex flex-col items-center justify-center w-3/4">
+            <Typography
+              className="font-bold py-2"
+              as="p"
+              variant="p"
+              font="montserrat"
+            >
+              PROJECT #1
+            </Typography>
+            <LineSeparator className="border-[0.5px] border-blackstone-200" />
+            <div className="flex flex-col items-center justify-center py-4">
+              <Typography
+                as="p"
+                variant="p"
+                className="font-bold"
+                font="montserrat"
+              >
+                INILHOITS! 2024
+              </Typography>
+              <Typography as="p" variant="p">
+                Staff Frontend
+              </Typography>
+            </div>
+            <LineSeparator className="border-[0.5px] border-blackstone-200" />
+            <div className="flex flex-col items-center justify-center p-4 text-balance">
+              <Typography className="text-center text-balance">
+                Lorem ipsum dolor sit a Lorem ipsum Lorem dolor sit a ipsum
+                Lorem ipsum Lorem ipsum Lorem ipsum dolor sit a Lorem ipsum
+              </Typography>
+              <div className="flex items-center space-x-2 justify-center mt-2 group">
+                <Typography className="underline group-hover:cursor-pointer">
+                  See the web
+                </Typography>
+                <NextImage
+                  src="/icon/arrow.png"
+                  width={24}
+                  height={22}
+                  alt="arrow"
+                  className="group-hover:cursor-pointer group-hover:rotate-45 duration-300 transition-all w-4"
+                />
+              </div>
+            </div>
+            <LineSeparator className="border-[0.5px] border-blackstone-200" />
+
+            <HorizontalScrollCard />
+          </div>
+        </div>
+        <div className="hidden lg:block">
+          <Slider />
+        </div>
+        <LineSeparator className="mb-96" />
+      </>
     </main>
   );
 }
