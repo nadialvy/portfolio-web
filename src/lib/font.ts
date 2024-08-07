@@ -11,6 +11,11 @@ export const Montserrat = localFont({
       path: "../styles/fonts/Montserrat/Montserrat-Bold.ttf",
       weight: "700",
       style: "normal",
+    },
+    {
+      path: "../styles/fonts/Montserrat/Montserrat-ExtraBold.ttf",
+      weight: "800",
+      style: "normal",
     }
   ],
   variable: "--font-montserrat",
