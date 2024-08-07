@@ -45,7 +45,7 @@ export default function Typography<T extends React.ElementType>({
         // *=============== Font Type ==================
         [
           font === "montserrat" && ["font-montserrat"],
-          font === "playfairdisplay" && ["font-playfair-display"],
+          font === "playfairdisplay" && ["font-playfairdisplay"],
         ],
         // *=============== Font Variants ==================
         [

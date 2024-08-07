@@ -34,5 +34,5 @@ export const PlayfairDisplay = localFont({
       style: "normal",
     }
   ],
-  variable: "--font-playfair-display",
+  variable: "--font-playfairdisplay",
 })
