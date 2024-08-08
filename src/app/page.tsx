@@ -61,18 +61,18 @@ export default function Home() {
               className=" z-40 lg:pr-16 relative my-4"
               variant="bt"
             >
-              Hey there, I'm Nadia Lovely! 👋🏻 <br /> <br /> I&apos;m a frontend
+              Hey there, I&apos;m Nadia Lovely! 👋🏻 <br /> <br /> I&apos;m a frontend
               developer who&apos;s all about turning complex ideas into smooth,
               user-friendly digital experiences. My curiosity about how
               businesses work and my passion for innovation led me to study
-              Information Systems. <br /> <br /> But coding isn&apos;t my only focus.
-              I thrive on bringing creative ideas to life, whether through
-              business plan competitions or leading projects. I&apos;ve worked in
-              startups, software houses, university committees, and as a
-              freelancer. <br /> <br /> For me, it&apos;s about creating something
-              that works—whether it&apos;s a website that just clicks or a project
-              that truly makes a difference. And I&apos;m always up for the next
-              challenge!
+              Information Systems. <br /> <br /> But coding isn&apos;t my only
+              focus. I thrive on bringing creative ideas to life, whether
+              through business plan competitions or leading projects. I&apos;ve
+              worked in startups, software houses, university committees, and as
+              a freelancer. <br /> <br /> For me, it&apos;s about creating
+              something that works—whether it&apos;s a website that just clicks
+              or a project that truly makes a difference. And I&apos;m always up
+              for the next challenge!
             </Typography>
 
             <NextImage
