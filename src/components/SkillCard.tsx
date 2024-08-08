@@ -12,7 +12,6 @@ type SkillCardProps = {
 
 export default function SkillCard({ title, link, imagePath, classname }: SkillCardProps) {
   return (
-    <div className={`w-64 p-4 rounded-md bg-white/10 shadow-sm ring-1 ring-blackstone-500/5 backdrop-blur-sm ${classname}`}>
       <Link className="group" href={link} target="_blank">
         <div className="flex justify-between items-center">
           <Typography as="p" variant="c" font="montserrat">
@@ -38,6 +37,5 @@ export default function SkillCard({ title, link, imagePath, classname }: SkillCa
           />
         </div>
       </Link>
-    </div>
   );
 }

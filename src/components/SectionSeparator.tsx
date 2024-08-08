@@ -22,6 +22,9 @@ export default function SectionSeparator({
         "lg:items-end lg:px-0 lg:justify-between lg:h-[190px]",
         numberFirst ? "lg:flex-row" : "lg:flex-row-reverse"
       )}
+      data-aos="fade-right"
+      data-aos-delay="400"
+      data-aos-duration="400"
     >
       <Typography
         font="playfairdisplay"

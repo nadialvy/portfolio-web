@@ -11,7 +11,11 @@ export default function About() {
       </div>
       <div className="flex flex-col px-6 lg:px-0 lg:flex-row lg:max-w-[1015px] items-stretch justify-center">
         <div className="lg:w-2/3 relative">
-          <div>
+          <div
+            data-aos="fade-right"
+            data-aos-delay="100"
+            data-aos-duration="300"
+          >
             <Typography
               as="h1"
               variant="h1"
@@ -56,6 +60,9 @@ export default function About() {
             font="montserrat"
             className=" z-40 lg:pr-16 relative my-4"
             variant="bt"
+            data-aos="fade-right"
+            data-aos-delay="200"
+            data-aos-duration="300"
           >
             Hey there, I&apos;m Nadia Lovely! 👋🏻 <br /> <br /> I&apos;m a
             frontend developer who&apos;s all about turning complex ideas into
@@ -85,6 +92,9 @@ export default function About() {
             alt="nadia"
             className="w-[110%] h-full object-cover hidden lg:block"
             style={{ width: "100%", minHeight: "100%" }}
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-aos-duration="400"
           />
           <NextImage
             src="/about/nadia-mobile.png"
