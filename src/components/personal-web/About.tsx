@@ -83,7 +83,7 @@ export default function About() {
             width={1208}
             height={1884}
             alt="nadia"
-            className="w-[110%] h-full object-cover"
+            className="w-[110%] h-full object-cover hidden lg:block"
             style={{ width: "100%", minHeight: "100%" }}
           />
           <NextImage

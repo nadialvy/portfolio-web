@@ -1,5 +1,6 @@
 import About from "@/components/personal-web/About";
 import Projects from "@/components/personal-web/Projects";
+import Skills from "@/components/personal-web/Skills";
 import SectionSeparator from "@/components/SectionSeparator";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
         firstTitle="SKILLS &"
         secondTitle="EXPERTISE"
       />
+      <Skills />
     </main>
   );
 }
