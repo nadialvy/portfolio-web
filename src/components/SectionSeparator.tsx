@@ -18,8 +18,8 @@ export default function SectionSeparator({
   return (
     <div
       className={clsxm(
-        "px-6 flex flex-col justify-start items-start w-full max-w-[1015px] lg:h-[200px]",
-        "lg:items-end lg:px-0 lg:justify-between",
+        "px-6 flex flex-col justify-start items-start w-full max-w-[1015px]",
+        "lg:items-end lg:px-0 lg:justify-between lg:h-[190px]",
         numberFirst ? "lg:flex-row" : "lg:flex-row-reverse"
       )}
     >

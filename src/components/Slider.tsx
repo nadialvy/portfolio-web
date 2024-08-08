@@ -22,7 +22,7 @@ export default function Slider() {
   };
 
   return (
-    <div className="flex flex-row space-x-6 items-center justify-between mx-auto max-w-[1015px]">
+    <div className="flex flex-row space-x-6 py-12 items-center justify-between mx-auto max-w-[1015px]">
       <div className="overflow-hidden">
         <div
           className="flex transition-transform duration-500 ease-outborder-[0.3px] max-w-[900px]"
@@ -31,7 +31,7 @@ export default function Slider() {
           {cards.map((card) => (
             <div
               key={card.id}
-              className="min-w-full border-blackstone-500 border-[0.3px] my-12 h-full"
+              className="min-w-full border-blackstone-500 border my-12 h-full"
             >
               <div className="flex h-full">
                 <div className="flex h-[360px]">
