@@ -58,17 +58,21 @@ export default function Home() {
             </div>
             <Typography
               font="montserrat"
-              className="my-8 z-40 lg:pr-16 relative lg:mt-12"
+              className=" z-40 lg:pr-16 relative my-4"
               variant="bt"
             >
-              Hello 👋🏻 <br className="lg:hidden" /> I&apos;m Nadia Lovely, a
-              frontend developer who turns complex ideas into seamless digital
-              experiences. My passion for business processes and innovation led
-              me to major in Information Systems. Beyond coding, I dive into
-              business plan competitions, bringing creative solutions to life.
-              From startup, software house, university comitte, to freelancing,
-              I&apos;ve led teams and driven projects to success, always focused
-              on making an impact.
+              Hey there, I'm Nadia Lovely! 👋🏻 <br /> <br /> I’m a frontend
+              developer who’s all about turning complex ideas into smooth,
+              user-friendly digital experiences. My curiosity about how
+              businesses work and my passion for innovation led me to study
+              Information Systems. <br /> <br /> But coding isn’t my only focus.
+              I thrive on bringing creative ideas to life, whether through
+              business plan competitions or leading projects. I’ve worked in
+              startups, software houses, university committees, and as a
+              freelancer. <br /> <br /> For me, it’s about creating something
+              that works—whether it’s a website that just clicks or a project
+              that truly makes a difference. And I’m always up for the next
+              challenge!
             </Typography>
 
             <NextImage
@@ -76,18 +80,20 @@ export default function Home() {
               width={1034}
               height={428}
               alt="blur pink element"
-              className="hidden lg:block absolute w-[500px] right-24 -bottom-[9.7%] z-10 "
+              className="hidden lg:block absolute w-[500px] right-24 -bottom-[3.8%] z-10 "
             />
           </div>
-          <div className="relative lg:w-1/3 lg:pl-6 ">
+          <div className="relative lg:w-1/3 ">
             <div className="absolute lg:top-0 lg:left-0 lg:h-3/4 lg:w-px lg:bg-blackstone-500 z-20"></div>
-            <NextImage
-              src="/about/nadia.png"
-              width={1208}
-              height={1884}
-              alt="nadia"
-              className="w-full hidden lg:block"
-            />
+            <div className="h-[600px] w-full hidden lg:block">
+              <NextImage
+                src="/about/nadia.png"
+                width={1208}
+                height={1884}
+                alt="nadia"
+                className="object-fit w-96 "
+              />
+            </div>
             <NextImage
               src="/about/nadia-mobile.png"
               width={1208}
@@ -100,7 +106,7 @@ export default function Home() {
               width={498}
               height={222}
               alt="half-eclipse"
-              className="absolute bottom-0 w-72 -left-[35%] hidden lg:block"
+              className="absolute bottom-0 w-96 -left-[35%] hidden lg:block z-0"
             />
             <NextImage
               src="/about/blur-element-purple.png"
@@ -126,7 +132,7 @@ export default function Home() {
           <LineSeparator className="border-[0.5px] border-blackstone-200" />
         </div>
         <div className="px-6 lg:px-0 w-full py-12 flex space-x-12 overflow-x-auto container-snap lg:hidden">
-          <div className="border-blackstone-500 border-[0.3px] flex flex-col items-center w-3/4">
+          <div className="border-blackstone-500 border-[0.3px] flex flex-col items-center w-[300px] flex-shrink-0">
             <Typography
               className="font-bold py-2"
               as="p"
@@ -150,7 +156,7 @@ export default function Home() {
               </Typography>
             </div>
             <LineSeparator className="border-[0.5px] border-blackstone-200" />
-            <div className="flex flex-col items-center justify-center p-4 text-balance">
+            <div className="flex flex-col items-center justify-center px-1 py-4 text-balance">
               <Typography className="text-center text-balance">
                 Lorem ipsum dolor sit a Lorem ipsum Lorem dolor sit a ipsum
                 Lorem ipsum Lorem ipsum Lorem ipsum dolor sit a Lorem ipsum
@@ -160,7 +166,7 @@ export default function Home() {
                   See the web
                 </Typography>
                 <NextImage
-                  src="/icon/arrow.png"
+                  src="/icon/arrow.svg"
                   width={24}
                   height={22}
                   alt="arrow"
@@ -169,9 +175,8 @@ export default function Home() {
               </div>
             </div>
             <LineSeparator className="border-[0.5px] border-blackstone-200" />
-
-            <div className="p-4">
-              <div className="w-80 flex flex-col space-y-2 h-full">
+            <div className="w-full mx-auto p-2">
+              <div className="flex flex-col space-y-2 h-full">
                 <div className="flex justify-between space-x-2 items-start">
                   <div className="w-1/2 flex flex-col space-y-2">
                     <div className="w-full bg-gray-200 h-40">pict1</div>
@@ -188,7 +193,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="border-blackstone-500 border-[0.3px] flex flex-col items-center w-3/4">
+          <div className="border-blackstone-500 border-[0.3px] flex flex-col items-center w-[300px] flex-shrink-0">
             <Typography
               className="font-bold py-2"
               as="p"
@@ -212,7 +217,7 @@ export default function Home() {
               </Typography>
             </div>
             <LineSeparator className="border-[0.5px] border-blackstone-200" />
-            <div className="flex flex-col items-center justify-center p-4 text-balance">
+            <div className="flex flex-col items-center justify-center px-1 py-4 text-balance">
               <Typography className="text-center text-balance">
                 Lorem ipsum dolor sit a Lorem ipsum Lorem dolor sit a ipsum
                 Lorem ipsum Lorem ipsum Lorem ipsum dolor sit a Lorem ipsum
@@ -222,7 +227,7 @@ export default function Home() {
                   See the web
                 </Typography>
                 <NextImage
-                  src="/icon/arrow.png"
+                  src="/icon/arrow.svg"
                   width={24}
                   height={22}
                   alt="arrow"
@@ -231,9 +236,8 @@ export default function Home() {
               </div>
             </div>
             <LineSeparator className="border-[0.5px] border-blackstone-200" />
-
-            <div className="p-4">
-              <div className="w-80 flex flex-col space-y-2 h-full">
+            <div className="w-full mx-auto p-2">
+              <div className="flex flex-col space-y-2 h-full">
                 <div className="flex justify-between space-x-2 items-start">
                   <div className="w-1/2 flex flex-col space-y-2">
                     <div className="w-full bg-gray-200 h-40">pict1</div>
@@ -250,7 +254,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="border-blackstone-500 border-[0.3px] flex flex-col items-center w-3/4">
+          <div className="border-blackstone-500 border-[0.3px] flex flex-col items-center w-[300px] flex-shrink-0">
             <Typography
               className="font-bold py-2"
               as="p"
@@ -274,7 +278,7 @@ export default function Home() {
               </Typography>
             </div>
             <LineSeparator className="border-[0.5px] border-blackstone-200" />
-            <div className="flex flex-col items-center justify-center p-4 text-balance">
+            <div className="flex flex-col items-center justify-center px-1 py-4 text-balance">
               <Typography className="text-center text-balance">
                 Lorem ipsum dolor sit a Lorem ipsum Lorem dolor sit a ipsum
                 Lorem ipsum Lorem ipsum Lorem ipsum dolor sit a Lorem ipsum
@@ -284,7 +288,7 @@ export default function Home() {
                   See the web
                 </Typography>
                 <NextImage
-                  src="/icon/arrow.png"
+                  src="/icon/arrow.svg"
                   width={24}
                   height={22}
                   alt="arrow"
@@ -293,9 +297,69 @@ export default function Home() {
               </div>
             </div>
             <LineSeparator className="border-[0.5px] border-blackstone-200" />
+            <div className="w-full mx-auto p-2">
+              <div className="flex flex-col space-y-2 h-full">
+                <div className="flex justify-between space-x-2 items-start">
+                  <div className="w-1/2 flex flex-col space-y-2">
+                    <div className="w-full bg-gray-200 h-40">pict1</div>
+                    <div className="w-full bg-gray-200 h-20">pict2</div>
+                    <div className="w-full bg-gray-200 h-20">pict3</div>
+                  </div>
+                  <div className="w-1/2 space-y-2 flex flex-col justify-between items-end">
+                    <div className="w-full bg-gray-200 h-20">pict4</div>
+                    <div className="w-full bg-gray-200 h-[248px]">pict5</div>
+                  </div>
+                </div>
+                <div className="w-full bg-gray-200 h-20">pict6</div>
+              </div>
+            </div>
+          </div>
 
-            <div className="p-4">
-              <div className="w-80 flex flex-col space-y-2 h-full">
+          <div className="border-blackstone-500 border-[0.3px] flex flex-col items-center w-[300px] flex-shrink-0">
+            <Typography
+              className="font-bold py-2"
+              as="p"
+              variant="p"
+              font="montserrat"
+            >
+              PROJECT #1
+            </Typography>
+            <LineSeparator className="border-[0.5px] border-blackstone-200" />
+            <div className="flex flex-col items-center justify-center py-4">
+              <Typography
+                as="p"
+                variant="p"
+                className="font-bold"
+                font="montserrat"
+              >
+                INILHOITS! 2024
+              </Typography>
+              <Typography as="p" variant="p">
+                Staff Frontend
+              </Typography>
+            </div>
+            <LineSeparator className="border-[0.5px] border-blackstone-200" />
+            <div className="flex flex-col items-center justify-center px-1 py-4 text-balance">
+              <Typography className="text-center text-balance">
+                Lorem ipsum dolor sit a Lorem ipsum Lorem dolor sit a ipsum
+                Lorem ipsum Lorem ipsum Lorem ipsum dolor sit a Lorem ipsum
+              </Typography>
+              <div className="flex items-center space-x-2 justify-center mt-2 group">
+                <Typography className="underline group-hover:cursor-pointer">
+                  See the web
+                </Typography>
+                <NextImage
+                  src="/icon/arrow.svg"
+                  width={24}
+                  height={22}
+                  alt="arrow"
+                  className="group-hover:cursor-pointer group-hover:rotate-45 duration-300 transition-all w-4"
+                />
+              </div>
+            </div>
+            <LineSeparator className="border-[0.5px] border-blackstone-200" />
+            <div className="w-full mx-auto p-2">
+              <div className="flex flex-col space-y-2 h-full">
                 <div className="flex justify-between space-x-2 items-start">
                   <div className="w-1/2 flex flex-col space-y-2">
                     <div className="w-full bg-gray-200 h-40">pict1</div>
